@@ -3,7 +3,7 @@
      *      OSCLass – software for creating and publishing online classified
      *                           advertising platforms
      *
-     *                        Copyright (C) 2010 OSCLASS
+     *                        Copyright (C) 2013 Osclass
      *
      *       This program is free software: you can redistribute it and/or
      *     modify it under the terms of the GNU Affero General Public License
@@ -24,6 +24,6 @@
 ?>
 <div id="footer">
     <div class="inner">
-          <?php _e('This website is proudly using the <a title="OSClass web" href="http://osclass.org/">classifieds scripts</a> software <strong>OSClass</strong>', 'masjob') ; ?>
+          <?php _e('This website is proudly using the classifieds scripts software <strong><a href="http://osclass.org/">Osclass</a></strong>', 'masjob') ; ?>
     </div>
 </div>

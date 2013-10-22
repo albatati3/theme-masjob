@@ -8,8 +8,8 @@ $(document).ready(function(){
     });
 
     // Flash messages effect
-    $("#FlashMessage").slideDown('slow').delay(3000).slideUp('slow');
-    
+    $("[class*='flashmessage-']").slideDown('slow').delay(3000).slideUp('slow');
+
     // Open login box in situ
     $('#login_open').click(function(e) {
         e.preventDefault();
