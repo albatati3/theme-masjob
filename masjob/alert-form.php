@@ -49,7 +49,7 @@
                 AlertForm::alert_hidden() ;
                 if( osc_is_web_user_logged_in() ) {
                     AlertForm::user_id_hidden() ;
-                    lertForm::email_hidden() ;
+                    AlertForm::email_hidden() ;
                 } else {
                     AlertForm::user_id_hidden() ;
                     AlertForm::email_text() ;
